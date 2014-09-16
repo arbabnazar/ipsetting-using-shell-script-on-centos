@@ -4,7 +4,7 @@ IP Setting on CentOS6 using Shell Script
 This script will be help to setup ip and hostname on CentOS6
 
 First create the script :
-------------------
+
 
 vi setting.sh
 
