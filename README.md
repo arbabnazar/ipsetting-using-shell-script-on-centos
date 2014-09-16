@@ -7,6 +7,7 @@ First create the script :
 
 vi setting.sh
 
+
 -----------------
 Copy and Paste the following code into it (Modify the Hostname and IP information,as per your requirement):
 
