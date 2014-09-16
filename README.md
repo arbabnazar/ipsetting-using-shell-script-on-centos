@@ -9,7 +9,7 @@ vi setting.sh
 
 -----------------
 Copy and Paste the following code into it (Modify the Hostname and IP information,as per your requirement):
------------------
+
 
 #!/bin/bash
 
@@ -58,8 +58,8 @@ echo "Usage: ip.sh <hostname> <interface> <baseip> <ipaddress> <gateway/dns>"
 echo "Example: ip.sh testname eth0 10.10.10 41 1"
 
 fi
----------------------
 
+------------------
 
 Then set the execute permission for your shell script:
 
