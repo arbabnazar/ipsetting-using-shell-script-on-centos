@@ -4,7 +4,7 @@ if [ $# -eq 5 ] then
 
 echo "" echo "Taking the backup and Changing the hostname from $(hostname) to $1 ..."
 
-sed -i.bk "s/$(hostname)/tendo/g" /etc/sysconfig/network
+sed -i.bk "s/$(hostname)/$1/g" /etc/sysconfig/network
 
 echo "" echo "Backing up & Assigning the Static IP ..." echo ""
 
